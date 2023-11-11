@@ -13,9 +13,7 @@ canvas {
     height: 100%;
     z-index: -1;
 }
-audio{
-    display: none;
-}
+
 .text{
     align-items: center;
     justify-content: center;
