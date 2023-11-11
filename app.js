@@ -7,10 +7,10 @@ var shells = [];
 var pass= [];
 
 var audio = document.getElementById('myAudio');
-document.body.onload = function() {
-    // Play the audio
+window.onload = function() {
+    var audio = document.getElementById('myAudio');
     audio.play();
-  };
+};
 
 
 
