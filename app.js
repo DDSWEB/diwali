@@ -6,6 +6,11 @@ var cwidth, cheight;
 var shells = [];
 var pass= [];
 
+window.onload = function() {
+    var audio = document.getElementById('myAudio');
+    audio.muted = false; // Unmute the audio (if needed)
+    audio.play();
+};
 
 
 
